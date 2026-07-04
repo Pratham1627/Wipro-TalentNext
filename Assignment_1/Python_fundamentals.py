@@ -1,4 +1,4 @@
-// Check if a number is Positive, Negative, or Zero
+# Check if a number is Positive, Negative, or Zero
 num = int(input("Enter a number: "))
 
 if num > 0:
@@ -8,7 +8,7 @@ elif num < 0:
 else:
     print("Zero")
 
-// Check if a number is Odd or Even
+# Check if a number is Odd or Even
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 
@@ -17,7 +17,7 @@ if num1 % 10 == num2 % 10:
 else:
     print(False)
 
-//Check whether two numbers have the same last digit
+# Check whether two numbers have the same last digit
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 
@@ -26,16 +26,16 @@ if num1 % 10 == num2 % 10:
 else:
     print(False)
 
-// Print numbers from 1 to 10 in a single row
+# Print numbers from 1 to 10 in a single row
 for i in range(1, 11):
     print(i, end="\t")
 
-// Print even numbers between 23 and 57
+# Print even numbers between 23 and 57
 for i in range(23, 58):
     if i % 2 == 0:
         print(i)
 
-// Check if a number is Prime
+# Check if a number is Prime
 num = int(input("Enter a number: "))
 
 if num < 2:
@@ -53,7 +53,7 @@ else:
     else:
         print("Not Prime")
 
-// Print prime numbers between 10 and 99
+# Print prime numbers between 10 and 99
 for num in range(10, 100):
 
     prime = True
@@ -66,7 +66,7 @@ for num in range(10, 100):
     if prime:
         print(num)
 
-// Sum of digits of a number
+# Sum of digits of a number
 num = int(input("Enter a number: "))
 
 sum = 0
@@ -78,7 +78,7 @@ while num > 0:
 
 print("Sum =", sum)
 
-// Reverse a number
+# Reverse a number
 num = int(input("Enter a number: "))
 
 reverse = 0
@@ -90,7 +90,7 @@ while num > 0:
 
 print("Reverse =", reverse)
 
-// Check whether a number is Palindrome
+# Check whether a number is Palindrome
 num = int(input("Enter a number: "))
 
 original = num
