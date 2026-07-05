@@ -1,0 +1,10 @@
+# Project 1: Suggest a vehicle based on travel distance.
+
+miles = int(input("How far would you like to travel in miles? "))
+
+if miles < 3:
+    print("I suggest Bicycle to your destination.")
+elif miles < 300:
+    print("I suggest Motor-Cycle to your destination.")
+else:
+    print("I suggest Super-Car to your destination.")
